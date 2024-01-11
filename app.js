@@ -1,6 +1,6 @@
 const express = require("express");
 const { sequelize } = require("./models");
-const authRouter = require("./routes/auth");
+
 const bodyParser = require('body-parser');
 const postRouter = require("./routes/post");
 const loginRouter = require("./routes/login");
